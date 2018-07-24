@@ -9,6 +9,13 @@ setup(
         'completion': ['argcomplete'],
     },
     data_files=[
+        ('share/ament_index/resource_index/packages', [
+            'resource/keymint_cli',
+        ]),
+        ('share/keymint_cli', [
+            'resource/local_setup.bash',
+            'resource/local_setup.zsh',
+        ]),
         ('share/keymint_cli/environment', [
             'completion/keymint-argcomplete.bash',
             'completion/keymint-argcomplete.zsh'
