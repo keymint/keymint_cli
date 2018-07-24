@@ -1,0 +1,6 @@
+{
+    "hooks": [
+        "share/keymint_cli/environment/keymint-argcomplete.bash",
+        "share/keymint_cli/environment/keymint-argcomplete.zsh"
+    ]
+}
