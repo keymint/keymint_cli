@@ -16,9 +16,9 @@
 from collections import OrderedDict
 import logging
 
-from pkg_resources import parse_version
-
 from keymint_cli.entry_points import load_entry_points
+
+from pkg_resources import parse_version
 
 PLUGIN_SYSTEM_VERSION = '0.1'
 
